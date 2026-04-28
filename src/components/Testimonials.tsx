@@ -25,8 +25,8 @@ export default function Testimonials() {
     },
     {
       text: "If you want to disconnect from city life and wake up to misty pine forests, this is the absolute best place.",
-      name: "Sarah L.",
-      location: "London, UK"
+      name: "Kavita R.",
+      location: "Ahmedabad"
     },
     {
       text: "Such a peaceful stay. Jhabe Ram took us on a village walk that ended up being the most memorable part of our holiday.",

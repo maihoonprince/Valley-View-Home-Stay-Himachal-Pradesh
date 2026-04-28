@@ -25,37 +25,37 @@ export default function Experience() {
       title: "Village Lifestyle",
       desc: "Experience authenticity in traditional Sainj homes.",
       icon: <Home size={32} />,
-      image: "https://images.unsplash.com/photo-1544325796-096057a62174?auto=format&fit=crop&q=80&w=800",
+      image: "/Village Lifestyle/village.jpg",
     },
     {
       title: "Sainj Ground",
       desc: "The heart of the valley, perfect for peaceful walks and relaxation.",
       icon: <Tent size={32} />,
-      image: "https://images.unsplash.com/photo-1506744626753-1fa44f84caba?auto=format&fit=crop&q=80&w=800",
+      image: "/Sainj Ground/Ground.jpg",
     },
     {
       title: "Laxmi Narayan Temple",
       desc: "Seek blessings at this ancient, beautifully carved historic temple.",
       icon: <Landmark size={32} />,
-      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&q=80&w=800",
+      image: "/Laxmi Narayan Tample/1.jpg",
     },
     {
       title: "Raila Twin Tower",
       desc: "Witness the historic and unique architectural marvel of the valley.",
       icon: <Building size={32} />,
-      image: "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?auto=format&fit=crop&q=80&w=800",
+      image: "/Raila Twin Tower/Twin Tower.jpg",
     },
     {
       title: "Shangarh Meadow",
       desc: "A breathtaking lush green meadow surrounded by dense pines.",
       icon: <TreePine size={32} />,
-      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800",
+      image: "/Shangadh/meadow.jpg",
     },
     {
       title: "Sainj Village",
       desc: "Our beautiful village, surrounded by gorgeous mountains from all directions.",
       icon: <Mountain size={32} />,
-      image: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
+      image: "/Sainj Village/Village.jpg",
     },
   ];
 

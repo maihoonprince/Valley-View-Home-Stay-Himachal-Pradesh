@@ -41,7 +41,7 @@ export default function About() {
 
         <div className="md:w-1/2 relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
           <img 
-            src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=800" 
+            src="/homestay/2.jpg" 
             alt="Valley View Homestay"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
           />

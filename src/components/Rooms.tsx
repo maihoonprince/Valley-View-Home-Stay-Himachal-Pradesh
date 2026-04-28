@@ -5,9 +5,7 @@ const roomsData = Array.from({ length: 6 }).map((_, i) => ({
   id: i + 1,
   title: "Deluxe Mountain View Room",
   price: "₹2000",
-  image: i % 2 === 0 
-    ? "https://images.unsplash.com/photo-1522771731470-ea433e3e8f67?auto=format&fit=crop&q=80&w=800"
-    : "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=800",
+  image: `/rooms/${(i % 3) + 1}.jpg`,
 }));
 
 export default function Rooms() {

@@ -1,6 +1,8 @@
 "use client";
 import { Mountain, MapPin, Phone, MessageCircle } from "lucide-react";
 
+import { FaLinkedin, FaWhatsapp, FaInstagram } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="bg-[#143224] text-brand-cream/90 py-16 px-6 md:px-12 relative z-10">
@@ -52,7 +54,22 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto border-t border-brand-cream/10 pt-8 flex flex-col md:flex-row items-center justify-between text-brand-cream/60 text-xs tracking-wide">
         <p>&copy; {new Date().getFullYear()} Valley View Home Stay. All rights reserved.</p>
-        <p className="mt-4 md:mt-0 italic font-light tracking-wide text-brand-cream/50">Made with love in the mountains.</p>
+        <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0">
+          <p className="italic font-light tracking-wide text-brand-cream/50">
+            Made with love in the mountains by PR!nce
+          </p>
+          <div className="flex gap-4 items-center">
+            <a href="https://www.linkedin.com/in/prinx/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:-translate-y-1 transition-all">
+              <FaLinkedin size={18} />
+            </a>
+            <a href="https://wa.me/917505710583" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:-translate-y-1 transition-all">
+              <FaWhatsapp size={18} />
+            </a>
+            <a href="https://instagram.com/solaryn.prince" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:-translate-y-1 transition-all">
+              <FaInstagram size={18} />
+            </a>
+          </div>
+        </div>
       </div>
 
     </footer>

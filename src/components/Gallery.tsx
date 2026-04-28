@@ -3,22 +3,41 @@ import { useState } from "react";
 import { X, ZoomIn } from "lucide-react";
 
 const images = [
-  // 1. Hut (Large 2x2)
-  "https://images.unsplash.com/photo-1542314831-c6a4d14eff50?auto=format&fit=crop&q=80&w=1200",
-  // 2. Bonfire (1x1)
-  "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&q=80&w=800",
-  // 3. Mountains (1x1)
-  "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
-  // 4. Bedroom (1x1)
-  "https://images.unsplash.com/photo-1522771731470-ea433e3e8f67?auto=format&fit=crop&q=80&w=800",
-  // 5. Log Cabin Exterior (2x1)
-  "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
-  // 6. Balcony view (1x1)
-  "https://images.unsplash.com/photo-1544325796-096057a62174?auto=format&fit=crop&q=80&w=800",
-  // 7. Trekking (1x1)
-  "https://images.unsplash.com/photo-1525328437458-0c4d4db7cab4?auto=format&fit=crop&q=80&w=800",
-  // 8. River isolated (1x1)
-  "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&q=80&w=800"
+  "/gallery/IMG-20260428-WA0041.jpg",
+  "/gallery/IMG20260107104221.jpg",
+  "/gallery/IMG20260113085626.jpg",
+  "/gallery/IMG20260113091007.jpg",
+  "/gallery/IMG20260115152548.jpg",
+  "/gallery/IMG20260115152604.jpg",
+  "/gallery/IMG20260124084241.jpg",
+  "/gallery/IMG20260124085712.jpg",
+  "/gallery/IMG20260124092649.jpg",
+  "/gallery/IMG20260124093909.jpg",
+  "/gallery/IMG20260124094112.jpg",
+  "/gallery/IMG20260124094123.jpg",
+  "/gallery/IMG20260124095323.jpg",
+  "/gallery/IMG20260124095559_01.jpg",
+  "/gallery/IMG20260124095839.jpg",
+  "/gallery/IMG20260124114604.jpg",
+  "/gallery/IMG20260124114738.jpg",
+  "/gallery/IMG20260124114808.jpg",
+  "/gallery/IMG20260128084838.jpg",
+  "/gallery/IMG20260128084843.jpg",
+  "/gallery/IMG20260128084902.jpg",
+  "/gallery/IMG20260128084927.jpg",
+  "/gallery/IMG20260128160030.jpg",
+  "/gallery/IMG20260128182015.jpg",
+  "/gallery/IMG20260129075141.jpg",
+  "/gallery/IMG20260129075155.jpg",
+  "/gallery/IMG20260129075206.jpg",
+  "/gallery/IMG20260316134108.jpg",
+  "/gallery/IMG20260316151527.jpg",
+  "/gallery/IMG20260317103552.jpg",
+  "/gallery/IMG20260317103736.jpg",
+  "/gallery/IMG20260317103930.jpg",
+  "/gallery/IMG20260323091105.jpg",
+  "/gallery/IMG20260323094359.jpg",
+  "/gallery/IMG20260323094759.jpg"
 ];
 
 // Exact CSS grid spans to recreate the mockup layout
@@ -54,7 +73,7 @@ export default function Gallery() {
           {images.map((img, index) => (
             <div
               key={index}
-              className={`relative overflow-hidden rounded-2xl md:rounded-[2rem] shadow-sm group cursor-pointer ${layoutClasses[index]}`}
+              className={`relative overflow-hidden rounded-2xl md:rounded-[2rem] shadow-sm group cursor-pointer ${layoutClasses[index % layoutClasses.length]}`}
               onClick={() => setSelectedImg(img)}
             >
               <img 
