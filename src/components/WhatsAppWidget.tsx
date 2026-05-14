@@ -29,7 +29,7 @@ export default function WhatsAppWidget() {
         className="opacity-0 -translate-x-3 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 bg-white/95 backdrop-blur-md text-[#102B20] text-xs font-semibold px-4 py-2.5 rounded-full shadow-xl border border-black/5 pointer-events-none group-hover:pointer-events-auto flex items-center gap-2"
       >
         <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
-        <span className="tracking-wide">Chat with Host</span>
+        <span className="tracking-wide">Chat with Jhabe Ram</span>
       </a>
     </div>
   );
