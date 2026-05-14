@@ -79,6 +79,8 @@ export default function Gallery() {
               <img 
                 src={img} 
                 alt={`Gallery ${index}`} 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
               />
               <div className="absolute inset-0 bg-[#102B20]/0 group-hover:bg-[#102B20]/30 transition-colors flex items-center justify-center">
@@ -92,18 +94,21 @@ export default function Gallery() {
       {selectedImg && (
         <div
           onClick={() => setSelectedImg(null)}
-          className="fixed inset-0 z-50 bg-[#102B20]/95 flex items-center justify-center p-4 cursor-pointer transition-opacity"
+          className="fixed inset-0 z-50 bg-[#102B20]/95 flex items-center justify-center p-4 cursor-pointer transition-opacity backdrop-blur-sm animate-fade-in"
         >
           <button 
-            className="absolute top-6 right-6 text-white hover:text-brand-sky transition-colors backdrop-blur-md bg-white/10 rounded-full p-2"
+            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-black/60 hover:bg-black border border-white/20 flex items-center justify-center text-white transition-all hover:scale-110 active:scale-95 shadow-2xl z-50"
             onClick={() => setSelectedImg(null)}
+            aria-label="Close enlarged view"
           >
-            <X size={32} />
+            <X size={28} />
           </button>
           <img
             src={selectedImg}
             alt="Enlarged view"
-            className="max-w-[90vw] max-h-[90vh] rounded-2xl shadow-2xl transition-transform object-contain"
+            loading="lazy"
+            decoding="async"
+            className="max-w-[90vw] max-h-[90vh] rounded-2xl shadow-2xl transition-all object-contain animate-scale-up"
             onClick={(e) => e.stopPropagation()}
           />
         </div>

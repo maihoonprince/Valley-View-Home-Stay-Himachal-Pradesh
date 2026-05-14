@@ -7,14 +7,14 @@ export default function About() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
         
         <div className="md:w-1/2 space-y-6">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold">
-            A Peaceful Retreat in the Himalayas
+          <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-wide">
+            Best Premium Homestay in Sainj Valley, Himachal Pradesh
           </h2>
-          <p className="text-lg leading-relaxed opacity-90">
-            Valley View Home Stay, owned by Jhabe Ram, offers a tranquil haven nestled in the heart of Sainj Valley. Surrounded by lush greenery and breathtaking mountain vistas, it provides the perfect blend of modern comfort and pristine nature.
+          <p className="text-lg leading-relaxed opacity-95">
+            Welcome to <span className="font-medium">Valley View Home Stay</span>, an idyllic mountain haven hosted by Jhabe Ram. Located in the pristine heights of Kullu district, our signature homestay in valley settings provides the perfect fusion of traditional Himachali warmth and modern comforts. Whether you are searching for a serene home stay in India, planning peaceful living in Himachal, or looking for an inspiring high-speed Wi-Fi base to work from home in Himachal, you have found your ultimate sanctuary.
           </p>
-          <p className="text-lg leading-relaxed opacity-90">
-            Registered under the Himachal Pradesh Tourism Development & Registration Act, 2002. Experience true Himalayan hospitality.
+          <p className="text-lg leading-relaxed opacity-95">
+            Officially registered under the Himachal Pradesh Tourism Development & Registration Act, 2002. Experience authentic homestay in Kullu hospitality, organic farm-fresh meals, and breathtaking mountain vistas.
           </p>
           
           <div className="pt-6 flex flex-wrap gap-6">
@@ -42,7 +42,7 @@ export default function About() {
         <div className="md:w-1/2 relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
           <img 
             src="/homestay/2.jpg" 
-            alt="Valley View Homestay"
+            alt="Valley View Home Stay in Sainj Valley Kullu Himachal Pradesh"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
           />
         </div>
