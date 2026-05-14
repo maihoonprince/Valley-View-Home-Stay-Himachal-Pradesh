@@ -24,7 +24,14 @@ export default function Navbar() {
     };
   }, []);
 
-  const links = ["Home", "About", "Rooms", "Experiences", "Gallery", "Location", "Contact"];
+  const links = ["Home", "About", "Rooms", "Trip", "Experiences", "Gallery", "Location", "Contact"];
+
+  const getHref = (link: string) => {
+    if (link === "Home") return "#";
+    if (link === "Trip") return "#trip-plan";
+    if (link === "Experiences") return "#experience";
+    return `#${link.toLowerCase()}`;
+  };
 
   return (
     <nav
@@ -49,7 +56,7 @@ export default function Navbar() {
           {links.map((link) => (
             <a
               key={link}
-              href={link === "Home" ? "#" : `#${link.toLowerCase()}`}
+              href={getHref(link)}
               className={`text-[15px] font-medium transition-colors duration-300 ${
                 isScrolled ? "text-[#1B4332]/90 hover:text-[#1B4332]" : "text-white/90 hover:text-white"
               }`}
@@ -88,7 +95,7 @@ export default function Navbar() {
             {links.map((link) => (
               <a
                 key={link}
-                href={link === "Home" ? "#" : `#${link.toLowerCase()}`}
+                href={getHref(link)}
                 onClick={() => setIsOpen(false)}
                 className={`text-lg font-medium ${isScrolled ? "text-[#1B4332]" : "text-white"}`}
               >
