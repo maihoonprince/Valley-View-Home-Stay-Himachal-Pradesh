@@ -50,11 +50,11 @@ export default function Location() {
             
             <div className="flex flex-col gap-4">
               <a 
-                href="tel:+919805505056" 
+                href="tel:+919015011814" 
                 className="flex items-center px-6 py-4 bg-[#102B20] text-white rounded-full font-medium hover:bg-[#143224] transition-all shadow-lg group"
               >
                 <Phone size={18} className="mr-3" />
-                <span>Call +91 98055 05056</span>
+                <span>Call +91 90150 11814</span>
               </a>
               
               <a 
@@ -68,7 +68,7 @@ export default function Location() {
               </a>
               
               <a 
-                href="https://wa.me/919805505056" 
+                href="https://wa.me/919015011814" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center px-6 py-4 border border-[#102B20] text-[#102B20] rounded-full font-medium hover:bg-[#102B20]/5 transition-all group"

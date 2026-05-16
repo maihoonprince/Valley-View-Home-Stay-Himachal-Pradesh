@@ -149,7 +149,7 @@ export default function TripPlan() {
 
             <div className="pt-4">
               <a
-                href={`https://wa.me/919805505056?text=Hello%20Jhabe%20Ram%20ji,%20I%20would%20love%20to%20plan%20the%20${encodeURIComponent(activeTrip.title)}%20during%20my%20stay.%20Please%20guide%20me%20on%20transport%20and%20arrangements.`}
+                href={`https://wa.me/919015011814?text=Hello%20Jhabe%20Ram%20ji,%20I%20would%20love%20to%20plan%20the%20${encodeURIComponent(activeTrip.title)}%20during%20my%20stay.%20Please%20guide%20me%20on%20transport%20and%20arrangements.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-transparent border-2 border-[#102B20] text-[#102B20] px-6 py-3 rounded-full font-medium hover:bg-[#102B20] hover:text-white transition-all group w-full sm:w-auto justify-center"
@@ -201,7 +201,7 @@ export default function TripPlan() {
             </p>
           </div>
           <a
-            href="https://wa.me/919805505056?text=Hello%20Jhabe%20Ram%20ji,%20I%20need%20help%20planning%20my%20overall%20travel%20itinerary%20and%20local%20transport%20for%20Sainj%20Valley."
+            href="https://wa.me/919015011814?text=Hello%20Jhabe%20Ram%20ji,%20I%20need%20help%20planning%20my%20overall%20travel%20itinerary%20and%20local%20transport%20for%20Sainj%20Valley."
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 bg-white text-[#102B20] px-6 py-3 rounded-full font-bold text-sm hover:bg-[#E5C27C] transition-all shadow-md hover:-translate-y-0.5 tracking-wide relative z-10 flex items-center gap-2"

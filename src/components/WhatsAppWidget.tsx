@@ -2,7 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppWidget() {
-  const phoneNumber = "919805505056";
+  const phoneNumber = "919015011814";
   const customMessage = "Hello Jhabe Ram ji, I am interested in booking a stay at Valley View Home Stay. Please guide me with room availability and details.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(customMessage)}`;
 

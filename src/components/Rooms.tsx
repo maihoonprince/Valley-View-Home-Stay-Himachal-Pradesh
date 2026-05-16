@@ -16,11 +16,14 @@ const roomImages = [
   { src: "/rooms & views/Room.jpg", alt: "Deluxe Bedroom Interior", category: "interior" },
   { src: "/rooms & views/room2.jpg", alt: "Cozy Double Bed Setup", category: "interior" },
   { src: "/rooms & views/room3.jpg", alt: "Spacious Room Layout", category: "interior" },
+  { src: "/rooms & views/room 4.jpg", alt: "Comfortable Bedroom Details", category: "interior" },
+  { src: "/rooms & views/room5.jpg", alt: "Elegant Room Setup", category: "interior" },
   { src: "/rooms & views/room toilet.jpg", alt: "Attached Clean Washroom", category: "interior" },
   { src: "/rooms & views/balcony view 1.jpg", alt: "Misty Mountain Balcony View", category: "view" },
   { src: "/rooms & views/balcony view 2.jpg", alt: "Scenic Green Valley Horizon", category: "view" },
   { src: "/rooms & views/balcony view 8.jpg", alt: "Golden Hour Mountain Vistas", category: "view" },
   { src: "/rooms & views/balcony view 3.jpg", alt: "Lush Tree Line from Balcony", category: "view" },
+  { src: "/rooms & views/balcony view 10.jpg", alt: "Expansive Balcony Panorama", category: "view" },
 ];
 
 const amenities = [
@@ -159,7 +162,7 @@ export default function Rooms() {
             </div>
 
             <a
-              href="https://wa.me/919805505056?text=Hello%20Jhabe%20Ram%20ji,%20I%20am%20interested%20in%20booking%20a%20Deluxe%20Mountain%20View%20Room%20at%20Valley%20View%20Home%20Stay.%20Please%20let%20me%20know%20the%20availability."
+              href="https://wa.me/919015011814?text=Hello%20Jhabe%20Ram%20ji,%20I%20am%20interested%20in%20booking%20a%20Deluxe%20Mountain%20View%20Room%20at%20Valley%20View%20Home%20Stay.%20Please%20let%20me%20know%20the%20availability."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-[#E5C27C] text-[#102B20] px-8 py-4 rounded-full font-bold text-lg hover:bg-white transition-all shadow-xl hover:-translate-y-1 w-full md:w-auto tracking-wide group"

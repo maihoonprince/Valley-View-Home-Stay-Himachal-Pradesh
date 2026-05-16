@@ -42,7 +42,11 @@ export default function Footer() {
                <Phone size={18} className="opacity-70" />
                +91 98055 05056
              </a>
-             <a href="https://wa.me/919805505056" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 hover:text-white transition-colors">
+             <a href="tel:+919015011814" className="flex items-center gap-4 hover:text-white transition-colors">
+               <Phone size={18} className="opacity-70" />
+               +91 90150 11814
+             </a>
+             <a href="https://wa.me/919015011814" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 hover:text-white transition-colors">
                <MessageCircle size={18} className="opacity-70" />
                WhatsApp Booking
              </a>
